@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="161.0" prefWidth="167.0" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.femass.gui.GuiMain">
+   <children>
+      <Button mnemonicParsing="false" onAction="#BtnCliente_Click" prefHeight="27.0" prefWidth="137.0" text="Clientes" />
+      <Button mnemonicParsing="false" onAction="#BtnFuncionario_Click" prefHeight="27.0" prefWidth="144.0" text="Funcionários" />
+      <Button mnemonicParsing="false" onAction="#BtnAtendimento_Click" prefHeight="27.0" prefWidth="140.0" text="Atendimento" />
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+   </padding>
+</VBox>
